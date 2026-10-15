@@ -95,4 +95,4 @@ Run the notebook from inside the `Furniture` folder so `Dataset.xlsx` is found.
 
 ## Author
 
-**Habiba Mostafa** - aspiring Data Analyst
+**Habiba Mostafa** -  Data Analyst
