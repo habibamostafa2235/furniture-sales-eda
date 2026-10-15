@@ -56,6 +56,20 @@ This project explores a Superstore-style retail dataset limited to the **Furnitu
 - **Standard Class is the most used ship mode** (about 59% of order lines), and the most common delivery time is 4 days.
 - **West has the most order lines** (707), and California is the top state by order count (444).
 - **December is the busiest month** by order lines.
+- **Central is the only unprofitable region:** it lost about $2,871, while West earned $11,505, South $6,771 and East $3,058. West alone accounts for more than 60% of total profit.
+- **Sales are strongly seasonal:** monthly sales stay around $40K-$55K for most of the year, jump in September (about $106K), dip in October, then peak in November and December (about $121K-$122K each). February is the weakest month (about $16K).
+- **California leads in sales:** its Consumer segment is the top state-segment combination ($76,460), followed by New York Consumer ($58,559) and California Corporate ($50,900). Consumer is the top segment in every state shown, and Texas, New York and California are the only states with a sizeable Corporate segment.
+
+## Visualizations
+
+### Region By Profit
+![Region By Profit](images/region_by_profit.png)
+
+### Total Sales By Month (2014-2017)
+![Total Sales By Month](images/sales_by_month.png)
+
+### Top 10 State-Segment Combinations By Sales
+![Top 10 State-Segment Combinations](images/state_segment_sales.png)
 
 ## Business Questions Explored
 
@@ -81,6 +95,7 @@ furniture-sales-eda/
 ├── Furniture/
 │   ├── Furniture_data.ipynb   # analysis notebook
 │   └── Dataset.xlsx           # dataset
+├── images/                    # charts used in this README
 └── README.md
 ```
 
